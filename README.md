@@ -1,4 +1,4 @@
-In this project, let's build **Technology Cards** by applying the concepts we have learned till now.
+In this project, I build **Technology Cards** App.
 
 ### Refer to the image below:
 
@@ -18,22 +18,13 @@ In this project, let's build **Technology Cards** by applying the concepts we ha
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionalities added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
 - The App is provided with `cardsList`. It consists of a list of cardItem objects with the following properties in each cardItem object
 
@@ -45,16 +36,16 @@ The app must have the following functionalities
   |   imgUrl    |  String   |
   |  className  |  String   |
 
-- The value of the key `id` should be used as a key to the `CardItem` component.
-- The value of the key `className` should be used for the HTML list item in the `CardItem` component.
+- The value of the key `id` is used as a key to the `CardItem` component.
+- The value of the key `className` is used for the HTML list item in the `CardItem` component.
 
 </details>
 
 <details>
-<summary>Implementation Files</summary>
+<summary>Implemented Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/App.js`
 - `src/App.css`
@@ -98,10 +89,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
